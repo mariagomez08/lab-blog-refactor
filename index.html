@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>ReceBlog</title>
 
@@ -22,138 +23,127 @@
         </nav>
     </header>
 
-
-    <div class="inicio">
-        <h1>Bienvenido a <span id="frase-principal">ReceBlog</span>, aquí encontraras recetas deliciosas, porque un
-            estomago contento es un corazón feliz</h1>
-    </div>
-
     <div class="seccion-receta">
         <!-- INICIO RECETA -->
-        <div class=" receta">
+        <div class="receta">
             <div id="introduccion">
                 <h2>Receta casera de pudín de vainilla francesa</h2>
-                <p>
-                    ¿Qué es la vainilla francesa? Más que un tipo de vainilla, la vainilla francesa es un sabor que
-                    describe la combinación de vainilla y yemas de huevo. Así que no tiene por qué ser vainilla en
-                    vaina, pero creo que es importante probar esta receta con vainilla natural primero.
-                    También puedes
-                    sustituirla por media cucharada de pasta de vainilla o una cucharada de extracto de vainilla. A
-                    veces me gusta usar tanto vainilla en vaina como extracto, sobre todo si la vas a comer sola,
-                    para
-                    obtener el máximo sabor a vainilla
-                </p>
-
-                <div class="imagen">
-                    <img src=".\img\pudin vainilla.png" alt="Pudín de vainilla cremoso">
-                </div>
-
-                <h3>Por qué te encantará esta receta?</h3>
-                <ul id="lista" class="listas">
-                    <li>Solo necesitas unos pocos ingredientes para esta receta. </li>
-                    <li>Básicamente, si tienes leche fresca y vainas de vainilla o pasta de vainilla, ya lo tienes
-                        todo
-                        listo.</li>
-                    <li>El sabor a vainilla es intenso y las motitas de las semillas son preciosas.</li>
-                    <li>Esta es una receta muy rápida . Solo necesitas 15 minutos de cocción y luego 15 minutos de
-                        enfriamiento, si la enfrías extendida sobre una bandeja para hornear.</li>
-                </ul>
-
-            </div>
-            <div id="ingredientes">
-                <h2>Ingredientes</h2>
-                <div id="imagen-ingredientes">
-                    <img src="img\homemade-french-vanilla-pudding-recipe-ingredients.webp"
+                <div class="imagen"> <img
+                        src="https://i0.wp.com/youthsweets.com/wp-content/uploads/2025/12/homemade-french-vanilla-pudding-recipe-feature.jpg?resize=1024%2C1024&ssl=1"
                         alt="Pudín de vainilla cremoso">
                 </div>
+                <h3>Por qué te encantará esta receta?</h3>
+                <ul id="lista" class="listas">
+                    <li>Solo necesitas unos pocos ingredientes para esta receta.
+                    </li>
+                    <li>Básicamente, si tienes leche fresca y vainas de vainilla o pasta de vainilla, ya lo
+                        tienes todo listo.
 
-                <ul id="lista-ingredientes" class="listas">
-                    <li>La leche entera es la base del pudín. Le aporta humedad y cremosidad. Prefiero la leche
-                        entera
-                        para que quede más cremoso, pero cualquier tipo de leche sirve.</li>
-                    <li>El azúcar granulada endulza la crema pastelera.</li>
-                    <li>Las yemas de huevo aportan riqueza, sabor y estructura.</li>
-                    <li>La maicena y la harina de trigo común son los agentes espesantes.</li>
-                    <li>La sal kosher equilibra el dulzor y el perfil de sabor general.</li>
-                    <li>El pudín tiene sabor a vainilla </li>
+                    </li>
+                    <li>El sabor a vainilla es intenso y las motitas de las semillas son preciosas.
+
+                    </li>
+                    <li>Esta es una receta muy rápida . Solo necesitas 15 minutos de cocción y luego 15 minutos
+                        de enfriamiento, si la enfrías extendida sobre una bandeja para hornear.
+
+                    </li>
                 </ul>
-            </div>
-            <!--PASOS DE LA RECETA-->
-            <div id="seccion-preparacion">
-                <h2>Cómo preparar esta receta casera de pudín de vainilla francesa (crema pastelera)</h2>
+                <br>
 
-                <div class="paso">
-                    <div class="texto-paso">
-                        <h4>Paso 1</h4>
-                        <p>Calienta la leche en una olla a fuego medio sin que hierva.</p>
-                    </div>
+                <div class="container mt-5">
 
-                    <div class="imagen">
-                        <img src="img/paso 1.webp" alt="foto del paso 1">
-                    </div>
-                </div>
+                    <div class="row g-4">
 
-                <div class="paso">
-                    <div class="texto-paso">
-                        <h4>Paso 2</h4>
-                        <p>En un recipiente, mezcla las yemas, el azúcar y la maicena.</p>
-                    </div>
+                        <!-- TARJETA RECETA -->
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="https://i0.wp.com/youthsweets.com/wp-content/uploads/2025/12/homemade-french-vanilla-pudding-recipe-plain-pastry-cream-in-cup.jpg?resize=1024%2C1024&ssl=1"
+                                    class="card-img-top" alt="Pudín">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Receta</h5>
 
-                    <div class="imagen">
-                        <img src="img/paso 2.webp" alt="foto del paso 2">
-                    </div>
-                </div>
+                                    <button class="btn btn-primary btn-sm" data-bs-toggle="collapse"
+                                        data-bs-target="#receta">
+                                        Ver más
+                                    </button>
 
+                                    <div class="collapse mt-3" id="receta">
+                                        <p>
+                                            Esta receta de pudín de vainilla francesa es cremosa, deliciosa y muy fácil
+                                            de hacer.
+                                            Perfecta para un postre rápido y casero.
+                                        </p>
 
-                <div class="paso">
-                    <div class="texto-paso">
-                        <h4>Paso 3</h4>
-                        <p>Agrega poco a poco la leche caliente a la mezcla sin dejar de revolver.</p>
-                    </div>
+                                        <ul>
+                                            <li>Fácil de preparar</li>
+                                            <li>Pocos ingredientes</li>
+                                            <li>Sabor intenso a vainilla</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                    <div class="imagen">
-                        <img src="img/paso 3.webp" alt="foto del paso 3">
-                    </div>
-                </div>
+                        <!-- TARJETA INGREDIENTES -->
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="https://i0.wp.com/youthsweets.com/wp-content/uploads/2025/12/homemade-french-vanilla-pudding-recipe-ingredients.jpg?w=1200&ssl=1"
+                                    class="card-img-top" alt="Ingredientes">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Ingredientes</h5>
 
+                                    <button class="btn btn-success btn-sm" data-bs-toggle="collapse"
+                                        data-bs-target="#ingredientes">
+                                        Ver ingredientes
+                                    </button>
 
+                                    <div class="collapse mt-3" id="ingredientes">
+                                        <ul class="text-start">
+                                            <li>Leche entera</li>
+                                            <li>Azúcar</li>
+                                            <li>Yemas de huevo</li>
+                                            <li>Maicena</li>
+                                            <li>Harina</li>
+                                            <li>Vainilla</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                <div class="paso">
-                    <div class="texto-paso">
-                        <h4>Paso 4</h4>
-                        <p>Lleva la mezcla nuevamente al fuego y cocina hasta que espese.</p>
-                    </div>
-                    <div class="imagen">
-                        <img src="img\paso 4.webp" alt="foto del paso 4">
-                    </div>
-                </div>
+                        <!-- TARJETA PREPARACIÓN -->
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="https://i0.wp.com/youthsweets.com/wp-content/uploads/2025/12/homemade-french-vanilla-pudding-recipe-step-6-pudding-with-plastic-wrap-on-top.jpg?resize=1024%2C1024&ssl=1"
+                                    class="card-img-top" alt="Preparación">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Preparación</h5>
 
-                <div class="paso">
-                    <div class="texto-paso">
-                        <h4>Paso 5</h4>
-                        <p>Retira del fuego y añade la vainilla y la mantequilla.</p>
-                    </div>
+                                    <button class="btn btn-warning btn-sm" data-bs-toggle="collapse"
+                                        data-bs-target="#preparacion">
+                                        Ver pasos
+                                    </button>
 
-                    <div class="imagen">
-                        <img src="img\paso 5.webp" alt="foto del paso 5">
-                    </div>
-                </div>
+                                    <div class="collapse mt-3" id="preparacion">
+                                        <ol class="text-start">
+                                            <li>Calentar la leche</li>
+                                            <li>Mezclar yemas, azúcar y maicena</li>
+                                            <li>Agregar la leche poco a poco</li>
+                                            <li>Cocinar hasta espesar</li>
+                                            <li>Añadir vainilla</li>
+                                            <li>Dejar enfriar</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                <div class="paso">
-                    <div class="texto-paso">
-                        <h4>Paso 6</h4>
-                        <p>Deja enfriar antes de servir.</p>
-                    </div>
-
-                    <div class="imagen">
-                        <img src="img\paso 6.webp" alt="foto del paso 6">
                     </div>
                 </div>
 
             </div>
         </div>
     </div>
-
 
     <footer class="footer">
         <br>
@@ -162,7 +152,8 @@
         <br>
         <p>Autores:
         <p>
-        <p>Brayan Andres Castro - Brayan Ricardo Velasquez - Lucas Enrrique Muñoz - Maria de los Angeles Gomez
+        <p>Brayan Andres Castro - Brayan Ricardo Velasquez - Lucas Enrrique Muñoz - Maria de los Angeles
+            Gomez
             Guzman - Quiryat Moncada</p>
         </p>
         </p>
@@ -171,6 +162,8 @@
         <p>Email: contacto@foodieblog.com</p>
         <p>Proyecto Colaborativo Generation Colombia</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
 
 </body>
 
