@@ -67,25 +67,6 @@ main {
   margin: 8px 0;
 }
 
-
-.paso {
-  display: flex;
-  gap: 20px;
-  margin: 20px 0;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.texto-paso {
-  flex: 1;
-}
-
-.paso .imagen {
-  flex: 1;
-  max-width: 400px;
-}
-
-
 .seccion {
   max-width: 800px;
   margin: 50px auto;
@@ -101,7 +82,6 @@ main {
 .seccion ul {
   margin-bottom: 15px;
 }
-
 
 form {
   display: flex;
